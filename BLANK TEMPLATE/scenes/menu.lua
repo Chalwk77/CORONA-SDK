@@ -2,8 +2,8 @@
 -- (c) 2018, Jericho Crosby <jericho.crosby227@gmail.com>
 local scene = composer.newScene()
 
-local function setUpDisplay(grp)
-    -- menu background, menu buttons and other menu screen objects 
+local function setUpDisplay(Group)
+    -- menu background, menu buttons and other menu screen objects
 end
 
 function scene:create( event )
