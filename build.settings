@@ -1,0 +1,53 @@
+settings =
+{
+    plugins =
+    {
+    -- list plugins here
+    },
+
+
+
+
+
+
+  	excludeFiles =
+  	{
+  		-- Exclude unnecessary files for each platform
+  		all = { "Icon.png", "Icon-*dpi.png", "Images.xcassets", "Sothlink Project Files/*.lmk"},
+  		android = { "LaunchScreen.storyboardc", },
+  	},
+
+
+
+
+
+
+    window = {
+  		defaultMode = 'normal',
+  		titleText = {default = 'APPLICATION NAME'}
+  	},
+
+
+
+
+
+
+    android =
+  	{
+  		installLocation = 'auto',
+  		usesPermissions = {"android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE","android.permission.VIBRATE"},
+  	},
+
+
+
+
+
+
+    -- SCREEN ORIENTATION --
+    -- Valid Entries: portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+    orientation =
+  	{
+  		default = "portrait", -- APPLICATION WILL START IN THIS ORIENTATION
+  		supported = {"portrait"},
+  	},
+}
